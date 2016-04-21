@@ -1,0 +1,12 @@
+[package]
+name = "psygen"
+version = "0.1.0"
+authors = ["fvieira <felipevieira@protonmail.com>"]
+
+[lib]
+name = "psygen"
+crate-type = ["dylib"]
+
+[dependencies]
+rand = "0.3"
+libc = "*"
